@@ -1,0 +1,18 @@
+.calculator {
+  min-width: 300px;
+  width: 430px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: 440px) {
+    width: 100%;
+  }
+}
+
+.calculator__output {
+  min-height: 120px;
+  margin-bottom: 20px;
+  background-color: $bg-color-light;
+  color: $color-light;
+}

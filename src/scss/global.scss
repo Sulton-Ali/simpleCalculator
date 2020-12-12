@@ -1,0 +1,8 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.body {
+  background: linear-gradient(#267943, #968453);
+  min-height: 100vh;
+}

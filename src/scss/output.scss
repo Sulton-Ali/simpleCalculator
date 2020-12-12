@@ -1,0 +1,16 @@
+.output {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+
+  text-align: right;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+.output__previous-operand {
+  font-size: 2rem;
+}
+
+.output__current-operand {
+  font-size: 3rem;
+}
